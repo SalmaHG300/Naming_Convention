@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<RevitAddIns>
+	<AddIn Type="Application">
+		<Name>WPFRevit</Name>
+		<Assembly>WPF_RevitAPI_04.dll</Assembly>
+		<AddInId>
+			9917105B-0845-49FF-924E-DB849B73E617
+		</AddInId>
+		<FullClassName>WPF_RevitAPI_04.RevitContext.ExternalApp</FullClassName>
+		<Text>WPF</Text>
+		<Description>WPF Revit API</Description>
+		<VendorId>ITI</VendorId>
+		<VendorDescription>@ITI</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+
+
+
+	<AddIn Type="DBApplication">
+		<Name>WPFRevit</Name>
+		<Assembly>WPF_RevitAPI_04.dll</Assembly>
+		<AddInId>
+			645D8339-98F5-4557-8C36-AD73C2E1D7DC
+		</AddInId>
+		<FullClassName>WPF_RevitAPI_04.RevitContext.ExternalDbApp</FullClassName>
+		<Text>WPF</Text>
+		<Description>WPF Revit API</Description>
+		<VendorId>ITI</VendorId>
+		<VendorDescription>@ITI</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+</RevitAddIns>
+
+
